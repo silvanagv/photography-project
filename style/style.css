@@ -92,3 +92,21 @@ img.nophoto {
 p {
   display: inline;
 }
+ul.gallery li {
+  font-size: 3em;
+  display: inline;
+  margin-left: 20px;
+}
+ul.gallery li a {
+  color: purple;
+  text-decoration: none;
+}
+ul.gallery li a:hover {
+  text-decoration: underline;
+  color: blue;
+  transition-property: color;
+
+
+  -webkit-transition-duration: 1s; /* Chrome, Safari, Opera */
+transition-duration: 1s;
+}
